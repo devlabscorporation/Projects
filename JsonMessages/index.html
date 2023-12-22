@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajes Automáticos</title>
+    <link rel="stylesheet" href="Assets/com.config.css">
+    <link rel="stylesheet" href="Fonts/IndexFontsCaviarDreams.css">
+    <link rel="shortcut icon" href="Assets/Icon.png" type="image/x-icon">
+    <link rel='stylesheet' href='Vendor/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='Vendor/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='Vendor/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="Vendor/animate.min.css">
+
+</head>
+<body>
+    
+    <main>
+
+        <div class="Data">
+
+            <div class="Start UI" style="display: flex;">
+
+                <div class="Icon"></div>
+                <p class="Title">Carga un archivo .JSON</p>
+                
+                <div class="UploadButton">
+
+                    <input type="file" class="GetJSONFILE" accept=".json">
+                    <i class="fi fi-sr-upload"></i>
+                    <p>Subir</p>
+
+                </div>
+
+            </div>
+
+            <div class="FileLoaded UI">
+
+                <div class="Icon"></div>
+                <div class="FileName">Listado.JSON</div>
+                <div class="FileSize">1 MB</div>
+
+                <div class="SendFile"> Continuar <i class="fi fi-rr-arrow-small-right"></i> </div>
+
+            </div>
+
+            <div class="ShowData UI" style="display: none;">
+
+                <p class="PersonName">Esperando Nombre</p>
+                <div class="PersonPhone">000000</div>
+                <div class="Buttons">
+    
+                    <div class="NextButton">Siguiente</div>
+                    <div class="MessageButton" style="background-color: #4bdd80;color:#052e16">Enviar Mensaje</div>
+    
+                </div>
+
+            </div>
+
+            <div class="Completed UI" style="display: none;">
+
+                <div class="Icon"></div>
+                <t>Completaste todos los usuarios de este archivo</t>
+                <p class="UsersCompletedNumber">Habían 8 personas en el archivo</p>
+                <div class="Refresh"> <i class="fi fi-br-rotate-right"></i> Recargar</div>
+
+            </div>
+
+            <div class="Completed Error UI" style="display: none;">
+
+                <div class="Icon" style="background-image:url(Assets/failed.png);"></div>
+                <t>No se pudo procesar tu archivo</t>
+                <p class="UsersCompletedNumber">Intentalo de nuevo</p>
+                <div class="Refresh2 Refresh"> <i class="fi fi-br-rotate-right"></i> Recargar</div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <script src="Assets/com.get.js"></script>
+
+</body>
+</html>

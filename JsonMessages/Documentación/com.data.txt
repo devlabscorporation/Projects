@@ -1,0 +1,45 @@
+Contenidos:
+
+34 archivos, 5 carpetas
+
+Carpetas:
+
+1) Assets = Ahí se encuentran los archivos de multimedia, como imágenes, estilos y el archivo de configuración de JavaScript
+2) Documentacion = Se encuentra este archivo y un diagrama de flujos del uso de la API
+3) Fonts = Ahí se encuentran las fuentes usadas por la API
+4) Muestra = Se encuentran dos archivos, un xlsx para poder ver como debe ser la estructura del archivo Excel, y un archivo .JSON para la demostración de uso de la API
+5) Vendor = Se encuentran las dependencias externas del proyecto
+
+
+Archivos:
+
+Carpeta Assets:
+Se encuentran 17 archivos de imágen con formato .png en la carpeta Assets
+Se encuentra un archivo llamado com.config.css que es una hoja de estilos del proyecto
+Se encuentra un archivo llamado com.get.js que es el archivo de configuraciones de JavaScript donde se encuentra el código de la API
+Se encuentra un archivo llamado com.config.js que es un archivo que ejecuta parte de la API pero en el protocolo AJAX
+
+Carpeta Documentacion:
+Se encuentra un archivo llamado com.data.txt que es este archivo que está letendo
+Se encuentra un archivo llamado Diagrama de Funcionamiento.pdf donde se encuentra un diagrama de flujo del uso de la API
+Se encuentra un archivo llamado com.map.js donde se encuentra esta misma información pero en formato de JavaScript
+
+Carpeta Fonts:
+Se encuentran 4 archivos de fuente .ttf para el uso de la fuente CaviarDreams en la API
+Se encuentra el archivo de lineamiento de estilos e instrucciones de aplicación de la Fuente a la API
+
+Carpeta Muestra:
+Se encuentra un archivo llamado Listado de personas.xlsx para dar una guía de la estructura de los archivos para la compatibilidad con la API
+Se encuentra un archivo llamado Muestra de listado de personas.json para dar la demostración de la API
+
+Carpeta Vendor
+
+Se encuentra un archivo llamado animate.min.css que se encarga de las animaciones
+Se encuentran tres archivos más con terminación .css para la aplicación de estilos a los íconos de la API
+
+Carpeta Raiz (Root):
+
+Se encuentra un archivo llamado index.html que es el responsable del funcionamiento de la API
+
+
+(En cada Archivo se encuentran los comentarios para hacer que el código de la API sea legible).
